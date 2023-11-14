@@ -7,7 +7,7 @@ if (!isNaN(intArgs)) {
   for (i = 0; i < intArgs; i++) {
     let row = '';
     for (j = 0; j < intArgs; j++) {
-      row += 'X ';
+      row += 'X';
     }
     console.log(row);
   }
