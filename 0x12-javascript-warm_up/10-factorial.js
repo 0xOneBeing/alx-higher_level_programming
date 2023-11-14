@@ -3,7 +3,7 @@
 const arg = process.argv[2];
 const number = parseInt(arg);
 
-function factorial(n) {
+function factorial (n) {
   if (isNaN(n)) {
     return 1;
   }
